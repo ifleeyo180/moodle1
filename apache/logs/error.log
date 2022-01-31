@@ -108,3 +108,26 @@
 [Tue Jan 11 04:40:46.612170 2022] [ssl:warn] [pid 10084:tid 672] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
 [Tue Jan 11 04:40:46.643421 2022] [ssl:warn] [pid 10084:tid 672] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
 [Tue Jan 11 04:40:46.674672 2022] [mpm_winnt:notice] [pid 10084:tid 672] AH00354: Child: Starting 150 worker threads.
+[Tue Jan 16 01:17:05.375509 2018] [ssl:warn] [pid 3300:tid 700] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Tue Jan 16 01:17:05.406665 2018] [core:warn] [pid 3300:tid 700] AH00098: pid file C:/xampp/apache/logs/httpd.pid overwritten -- Unclean shutdown of previous Apache run?
+[Tue Jan 16 01:17:05.406665 2018] [ssl:warn] [pid 3300:tid 700] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Tue Jan 16 01:17:05.439276 2018] [mpm_winnt:notice] [pid 3300:tid 700] AH00455: Apache/2.4.52 (Win64) OpenSSL/1.1.1m PHP/8.0.14 configured -- resuming normal operations
+[Tue Jan 16 01:17:05.439276 2018] [mpm_winnt:notice] [pid 3300:tid 700] AH00456: Apache Lounge VS16 Server built: Dec 17 2021 10:17:38
+[Tue Jan 16 01:17:05.439276 2018] [core:notice] [pid 3300:tid 700] AH00094: Command line: 'c:\\xampp\\apache\\bin\\httpd.exe -d C:/xampp/apache'
+[Tue Jan 16 01:17:05.439276 2018] [mpm_winnt:notice] [pid 3300:tid 700] AH00418: Parent: Created child process 4200
+[Tue Jan 16 01:17:05.593971 2018] [ssl:warn] [pid 4200:tid 712] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Tue Jan 16 01:17:05.625221 2018] [ssl:warn] [pid 4200:tid 712] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Tue Jan 16 01:17:05.656469 2018] [mpm_winnt:notice] [pid 4200:tid 712] AH00354: Child: Starting 150 worker threads.
+[Tue Jan 16 01:23:08.536511 2018] [ssl:warn] [pid 2644:tid 620] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Tue Jan 16 01:23:08.567909 2018] [core:warn] [pid 2644:tid 620] AH00098: pid file C:/xampp/apache/logs/httpd.pid overwritten -- Unclean shutdown of previous Apache run?
+[Tue Jan 16 01:23:08.567909 2018] [ssl:warn] [pid 2644:tid 620] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Tue Jan 16 01:23:08.775201 2018] [mpm_winnt:notice] [pid 2644:tid 620] AH00455: Apache/2.4.52 (Win64) OpenSSL/1.1.1m PHP/8.0.14 configured -- resuming normal operations
+[Tue Jan 16 01:23:08.775201 2018] [mpm_winnt:notice] [pid 2644:tid 620] AH00456: Apache Lounge VS16 Server built: Dec 17 2021 10:17:38
+[Tue Jan 16 01:23:08.775201 2018] [core:notice] [pid 2644:tid 620] AH00094: Command line: 'c:\\xampp\\apache\\bin\\httpd.exe -d C:/xampp/apache'
+[Tue Jan 16 01:23:08.775201 2018] [mpm_winnt:notice] [pid 2644:tid 620] AH00418: Parent: Created child process 3756
+[Tue Jan 16 01:23:08.946852 2018] [ssl:warn] [pid 3756:tid 728] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Tue Jan 16 01:23:08.978101 2018] [ssl:warn] [pid 3756:tid 728] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Tue Jan 16 01:23:09.009447 2018] [mpm_winnt:notice] [pid 3756:tid 728] AH00354: Child: Starting 150 worker threads.
+[Sun Jan 16 02:52:38.378466 2022] [php:warn] [pid 3756:tid 3852] [client 127.0.0.1:49674] PHP Warning:  rename(C:\\xampp\\moodledata/cache/cachestore_file/default_application/core_config/5b2-cache/.61e317f65b0622.45153140.temp,C:\\xampp\\moodledata/cache/cachestore_file/default_application/core_config/5b2-cache/5b27bf19f7f929691a51930c4c6cc1796e128f5d.cache): \xe5\xad\x98\xe5\x8f\x96\xe8\xa2\xab\xe6\x8b\x92\xe3\x80\x82 (code: 5) in C:\\xampp\\htdocs\\moodle\\cache\\stores\\file\\lib.php on line 733, referer: http://127.0.0.1/moodle/theme/index.php
+[Mon Jan 31 14:58:09.578058 2022] [mpm_winnt:crit] [pid 3756:tid 728] AH02538: Child: Parent process exited abruptly. Child process is ending
+[Mon Jan 31 14:58:11.622813 2022] [mpm_winnt:notice] [pid 3756:tid 728] AH00364: Child: All worker threads have exited.
